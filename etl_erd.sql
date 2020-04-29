@@ -20,6 +20,7 @@ CREATE TABLE "virus" (
     "datetime" DATE   NOT NULL,
     "italy_confirmed_cases" INT   NOT NULL,
     "italy_suspected_cases" INT   NOT NULL,
+    "italy_cured_cases" INT   NOT NULL,
     "italy_death_cases" INT   NOT NULL,
     "us_confirmed_cases" INT   NOT NULL,
     "us_suspected_cases" INT   NOT NULL,
