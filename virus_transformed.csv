@@ -1,4 +1,4 @@
-datetime,italy confirmed cases,italy suspected cases,italy cured cases,italy death cases,us confirmed cases,us suspected cases,us cured cases,us death cases
+datetime,italy_confirmed_cases,italy_suspected_cases,italy_cured_cases,italy_death_cases,us_confirmed_cases,us_suspected_cases,us_cured_cases,us_death_cases
 2020-02-01,2,0,0,0,8,0,0,0
 2020-02-02,2,0,0,0,9,0,0,0
 2020-02-03,2,0,0,0,11,0,1,0
