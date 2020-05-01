@@ -22,7 +22,7 @@ URL: https://docs.google.com/document/d/1nB_Uuv6i-0Zj-f2z4CwXNlWPXoprAOe-gS0MT4P
       * Suspected cases
       * Cured cases
       * Death cases
-  * mobility_csv.csv
+  * applemobilitytrends-2020-04-27.csv
     * Apple Maps - Mobility Trends Reports
     * https://www.apple.com/covid19/mobility
     * The CSV file shows a relative volume of directions requests per country/region or city compared to a baseline volume on January 13th, 2020 (baseline volume = 100).
