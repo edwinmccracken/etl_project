@@ -1,8 +1,7 @@
-# How the outbreak of coronavirus has impacted mobility in Italy and USA
-# ETL Project Report
+## How the outbreak of coronavirus has impacted mobility in Italy and USA
+## ETL Project Report
 
 Project Proposal
-
 URL: https://docs.google.com/document/d/1nB_Uuv6i-0Zj-f2z4CwXNlWPXoprAOe-gS0MT4PgE2A/edit?usp=sharing
 
 ### Built With
