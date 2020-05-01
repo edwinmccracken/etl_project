@@ -56,8 +56,8 @@ URL: https://docs.google.com/document/d/1nB_Uuv6i-0Zj-f2z4CwXNlWPXoprAOe-gS0MT4P
 ## Visualizations
 * Use Matplotlib to create lines charts with multiple lines
   * Compare driving directions requests in US and Italy
-  * Compare driving directions requests in US and Italy
-  * Compare driving directions requests in US and Italy
+  * Compare transit directions requests in US and Italy
+  * Compare walking directions requests in US and Italy
   * Compare death cases in US and Italy
   * Compare confirmed cases in US and Italy
   * Compare cured cases in US and Italy
