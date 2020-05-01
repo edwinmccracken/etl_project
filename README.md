@@ -5,7 +5,7 @@
 * Eddie McCracken
 * Ivy Tiongco
 
-#### Project Description:
+#### Project Description
 
 We will be analyzing the impact of the coronavirus spread on the use of Google and Apple maps in the United States and Italy. Our final analysis will display trends by date on both the spread of the virus (rate of infection) and changes in the use of google/apple maps in the US and Italy.
 
