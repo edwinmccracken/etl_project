@@ -51,12 +51,14 @@ URL: https://docs.google.com/document/d/1nB_Uuv6i-0Zj-f2z4CwXNlWPXoprAOe-gS0MT4P
   * Load dataframes into Postgres database
 * Using pgAdmin 4
   * Join tables on date in PostgreSQL
+  * Create joined_data.sql file of joined table
+  * Create CSV of joined data to read into Pandas
 
 ## Visualizations
-* Use Matplotlib, Numpy to create lines charts with multiple lines
+* Read in joined_data.csv and use Matplotlib to create line charts with multiple lines
   * Compare driving directions requests in US and Italy
-  * Compare driving directions requests in US and Italy
-  * Compare driving directions requests in US and Italy
+  * Compare transit directions requests in US and Italy
+  * Compare walking directions requests in US and Italy
   * Compare death cases in US and Italy
   * Compare confirmed cases in US and Italy
   * Compare cured cases in US and Italy
