@@ -1,10 +1,14 @@
 # ETL Project Report
 ## How the outbreak of coronavirus has impacted mobility in Italy and USA
 
+#### Authors
+* Eddie McCracken
+* Ivy Tiongco
+
 Project Proposal
 URL: https://docs.google.com/document/d/1nB_Uuv6i-0Zj-f2z4CwXNlWPXoprAOe-gS0MT4PgE2A/edit?usp=sharing
 
-### Built With
+#### Built With
 * Python 
 * Pandas
 * Matplotlib
@@ -13,11 +17,6 @@ URL: https://docs.google.com/document/d/1nB_Uuv6i-0Zj-f2z4CwXNlWPXoprAOe-gS0MT4P
 * SQLAlchemy
 * quickdatabasediagrams.com
 
-### Authors
-* Eddie McCracken
-* Ivy Tiongco
-
-## Steps done:
 ## Extract
 * CSVs downloaded from websites
   * University of Washington - Humanistic GIS Laboratory
@@ -26,22 +25,26 @@ URL: https://docs.google.com/document/d/1nB_Uuv6i-0Zj-f2z4CwXNlWPXoprAOe-gS0MT4P
     * https://www.apple.com/covid19/mobility
 
 ## Transform
-* Load CSV into pandas
-* Create a filtered dataframe from specific columns
-* Drop rows that are missing and that we are not including in dataset
-* Rename columns
-* Split string into 4 columns and drop old columns
-* Transpose dataframe
-* Reset_index to make index a column
+* Using Pandas
+  * Load CSV into pandas
+  * Create a filtered dataframe from specific columns
+  * Drop rows that are missing and that we are not including in dataset
+  * Rename columns
+  * Split string into 4 columns and drop old columns
+  * Transpose dataframe
+  * Reset_index to make index a column
 
 ## Load
 * Use quickdatabasediagrams.com to create schema
-* Export schema as Postgres file
-* Create database in Postgres
-* Import SQL queries in Postgres to create tables
-* Create database connection in pandas
-* Load dataframes into Postgres database
-* Join tables on date
+  * Export schema as PostgreSQL file
+* Using pgAdmin 4
+  * Create database in PostgreSQL 
+  * Import SQL queries in Postgres to create tables
+* Using Pandas, SQLAlchemy
+  * Create database connection in pandas
+  * Load dataframes into Postgres database
+* Using pgAdmin 4
+  * Join tables on date in PostgreSQL
 
 ## Visualizations
-* Multiple lines charts
+* Use Matplotlib to create lines charts with multiple lines
