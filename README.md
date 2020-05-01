@@ -7,7 +7,7 @@
 
 #### Project Description
 
-We will be analyzing the impact of the coronavirus spread on the use of Google and Apple maps in the United States and Italy. Our final analysis will display trends by date on both the spread of the virus (rate of infection) and changes in the use of google/apple maps in the US and Italy.
+We will be performing ETL functions (Extract, Transform, Load) on data related to the impact of the coronavirus spread on the use of Apple maps in the United States and Italy from February to late April 2020. 
 
 Project Proposal
 URL: https://docs.google.com/document/d/1nB_Uuv6i-0Zj-f2z4CwXNlWPXoprAOe-gS0MT4PgE2A/edit?usp=sharing
