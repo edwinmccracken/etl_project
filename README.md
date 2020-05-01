@@ -13,14 +13,25 @@ Project Proposal
 URL: https://docs.google.com/document/d/1nB_Uuv6i-0Zj-f2z4CwXNlWPXoprAOe-gS0MT4PgE2A/edit?usp=sharing
 
 ## Extract
-* CSVs downloaded from websites
-  * University of Washington - Humanistic GIS Laboratory
+* 2 CSVs downloaded from the following websites
+  * virus.csv
+    * University of Washington - Humanistic GIS Laboratory
     * https://hgis.uw.edu/virus/
-  * Apple Maps - Mobility Trends Reports
+    * Includes the following COVID-19 data by date per country/region:
+      * Confirmed cases
+      * Suspected cases
+      * Cured cases
+      * Death cases
+  * mobility_csv.csv
+    * Apple Maps - Mobility Trends Reports
     * https://www.apple.com/covid19/mobility
+    * The CSV file shows a relative volume of directions requests per country/region or city compared to a baseline volume on January 13th, 2020 (baseline volume = 100).
+      * Driving directions requests
+      * Transit directions requests
+      * Walking directions requests
 
 ## Transform
-* Using Pandas
+* Using Pandas, we performed the following tasks to create dataframes from each data source containing only date and data for US and Italy
   * Load CSV into pandas
   * Create a filtered dataframe from specific columns
   * Drop rows that are missing and that we are not including in dataset
@@ -43,3 +54,9 @@ URL: https://docs.google.com/document/d/1nB_Uuv6i-0Zj-f2z4CwXNlWPXoprAOe-gS0MT4P
 
 ## Visualizations
 * Use Matplotlib, Numpy to create lines charts with multiple lines
+  * Compare driving directions requests in US and Italy
+  * Compare driving directions requests in US and Italy
+  * Compare driving directions requests in US and Italy
+  * Compare death cases in US and Italy
+  * Compare confirmed cases in US and Italy
+  * Compare cured cases in US and Italy
